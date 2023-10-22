@@ -2,3 +2,6 @@
 .php-cs-fixer.cache
 env.php
 /src/logs
+/coverage
+/.phpunit.result.cache
+/UnitLog
