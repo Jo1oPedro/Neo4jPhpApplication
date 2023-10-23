@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 use Project\Neo4j\Database\Database;
 
@@ -13,8 +13,8 @@ RETURN keanu", ['keanu'], ['keanu' => ['name']]);
 
 dd($user('keanu.name'));*/
 
-//$user->find('MATCH (n:User) RETURN n LIMIT 1', ['n'], ['n' => ['name']]);
-
+$user->find('MATCH (n:User) RETURN n LIMIT 1', ['n'], ['n' => ['name']]);
+dd($user('n.name'));
 //$user->create('MATCH (n:User) RETURN n LIMIT 1', ['n'], ['n' => ['name']]);
 
 /*$user->create("CREATE (j:User {name:'cascata9'})-[r:follows]->(n:User {name: 'cascata10'})-[x:buys]->(p:Products {name: 'produto'})

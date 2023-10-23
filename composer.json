@@ -6,7 +6,7 @@
         },
         "files": [
             "env.php",
-            "helpers.php"
+            "helpers/helpers.php"
         ]
     },
     "authors": [
@@ -30,6 +30,6 @@
         "friendsofphp/php-cs-fixer": "^3.35"
     },
     "scripts": {
-        "create-node": "php C:\\Users\\jpppe\\IdeaProjects\\neo4jphp\\databasetest.php"
+        "create-node": "C:\\Users\\jpppe\\IdeaProjects\\neo4jphp\\examples\\databasetest.php"
     }
 }
