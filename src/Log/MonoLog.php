@@ -24,7 +24,7 @@ class MonoLog
      * Singleton method to retrieve the Logger instances so that we can log exceptions and debug
      * @return Logger|null
      */
-    public static function getInstance(): Logger
+    public static function getInstance(): Logger|null
     {
         if(is_null(self::$instance)) {
             self::setInstance();

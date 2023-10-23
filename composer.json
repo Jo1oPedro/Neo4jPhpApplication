@@ -5,7 +5,8 @@
             "Project\\Neo4j\\": "src/"
         },
         "files": [
-            "env.php"
+            "env.php",
+            "helpers.php"
         ]
     },
     "authors": [
@@ -27,5 +28,8 @@
         "phpunit/phpunit": "^10.4",
         "vimeo/psalm": "^5.15",
         "friendsofphp/php-cs-fixer": "^3.35"
+    },
+    "scripts": {
+        "create-node": "php C:\\Users\\jpppe\\IdeaProjects\\neo4jphp\\databasetest.php"
     }
 }
