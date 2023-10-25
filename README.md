@@ -1,4 +1,14 @@
-Fluxo de desenvolvimento:
+# Neo4j PHP Applicatio
 
-1°: ./vendor/bin/psalm para identificar possiveis erros de parametrização, retorno e etc.
-2°: vendor/bin/php-cs-fixer fix src/ --dry-run --diff para identificar possiveis erros referentes as padronizações das psrs do php.
+## Fluxo de desenvolvimento:
+
+ - 1°: para identificar possiveis erros de parametrização, retorno e etc.
+ 
+ ```
+ /vendor/bin/psalm  
+ ```
+
+ - 2°:  para identificar possiveis erros referentes as padronizações das psrs do php.
+ ```
+ vendor/bin/php-cs-fixer fix src/ --dry-run --diff
+ ```
